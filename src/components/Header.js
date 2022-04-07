@@ -7,12 +7,12 @@ const Header = () => {
       <img src={Logo} className="w-32" alt="Logo do Spotify na cor branca" />
       <div className="text-white w-1/2 font-bold">
         <ul className="flex place-content-around">
-          <li>Premium</li>
-          <li>Suporte</li>
-          <li>Baixar</li>
+          <li className="hover:text-[#1ed760]">Premium</li>
+          <li className="hover:text-[#1ed760]">Suporte</li>
+          <li className="hover:text-[#1ed760]">Baixar</li>
           <li>|</li>
-          <li>Inscrever-se</li>
-          <li>Entrar</li>
+          <li className="hover:text-[#1ed760]">Inscrever-se</li>
+          <li className="hover:text-[#1ed760]">Entrar</li>
         </ul>
       </div>
     </div>

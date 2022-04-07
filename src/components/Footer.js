@@ -1,6 +1,6 @@
 import React from "react";
 import Logo from "../img/logo.png";
-import { Instagram, Twitter, Facebook } from "@mui/icons-material";
+import { Instagram, Twitter, Facebook, Public } from "@mui/icons-material";
 
 const Footer = () => {
   return (
@@ -15,27 +15,27 @@ const Footer = () => {
           <li className="uppercase text-[#919496] text-[12px] font-bold">
             Empresa
           </li>
-          <li>Sobre</li>
-          <li>Empregos</li>
-          <li>For the Record</li>
+          <li className="hover:text-[#1ed760]">Sobre</li>
+          <li className="hover:text-[#1ed760]">Empregos</li>
+          <li className="hover:text-[#1ed760]">For the Record</li>
         </ul>
         <ul className="text-white leading-10">
           <li className="uppercase text-[#919496] text-[12px] font-bold">
             Comunidade
           </li>
-          <li>Para Artistas</li>
-          <li>Desenvolvedores</li>
-          <li>Publicidade</li>
-          <li>Investidores</li>
-          <li>Fornecedores</li>
+          <li className="hover:text-[#1ed760]">Para Artistas</li>
+          <li className="hover:text-[#1ed760]">Desenvolvedores</li>
+          <li className="hover:text-[#1ed760]">Publicidade</li>
+          <li className="hover:text-[#1ed760]">Investidores</li>
+          <li className="hover:text-[#1ed760]">Fornecedores</li>
         </ul>
         <ul className="text-white leading-10">
           <li className="uppercase text-[#919496] text-[12px] font-bold">
             Links Úteis
           </li>
-          <li>Suporte</li>
-          <li>Player da Web</li>
-          <li>Aplicativo móvel grátis</li>
+          <li className="hover:text-[#1ed760]">Suporte</li>
+          <li className="hover:text-[#1ed760]">Player da Web</li>
+          <li className="hover:text-[#1ed760]">Aplicativo móvel grátis</li>
         </ul>
         <ul className="flex">
           <li className="bg-[#222326] mx-2 h-14 w-14 rounded-full flex justify-center items-center">
@@ -57,9 +57,11 @@ const Footer = () => {
           <li className="hover:text-[#1ed760]">Cookies</li>
           <li className="hover:text-[#1ed760]">Sobre anúncios</li>
         </ul>
-        <ul className="text-right">
-          <li>Brasil</li>
-          <li>2022 Spotify AB</li>
+        <ul>
+          <li className="flex justify-center items-center hover:text-[#1ed760]">
+            <Public fontSize="5px" className="text-white mr-2" /> Brasil
+          </li>
+          <li>&copy; 2022 Spotify AB</li>
         </ul>
       </div>
     </div>
