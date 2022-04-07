@@ -2,7 +2,7 @@ import React from "react";
 
 const Content = () => {
   return (
-    <div className="bg-[#2941ab] h-[846px]">
+    <div className="bg-[#2941ab] h-[846px] bg-content bg-cover">
       <h1 className="text-[#1ed760] font-bold text-[150px] tracking-tight leading-[150px] flex justify-center text-center pt-40">
         Escutar muda <br />
         tudo

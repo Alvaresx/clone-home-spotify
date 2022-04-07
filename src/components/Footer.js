@@ -1,5 +1,6 @@
 import React from "react";
 import Logo from "../img/logo.png";
+import { Instagram, Twitter, Facebook } from "@mui/icons-material";
 
 const Footer = () => {
   return (
@@ -36,15 +37,25 @@ const Footer = () => {
           <li>Player da Web</li>
           <li>Aplicativo móvel grátis</li>
         </ul>
+        <ul className="flex">
+          <li className="bg-[#222326] mx-2 h-14 w-14 rounded-full flex justify-center items-center">
+            <Instagram className="text-white hover:text-[#1ed760]" />
+          </li>
+          <li className="bg-[#222326] mx-2 h-14 w-14 rounded-full flex justify-center items-center">
+            <Twitter className="text-white hover:text-[#1ed760]" />
+          </li>
+          <li className="bg-[#222326] mx-2 h-14 w-14 rounded-full flex justify-center items-center">
+            <Facebook className="text-white hover:text-[#1ed760]" />
+          </li>
+        </ul>
       </div>
-
       <div className="flex justify-between text-[12px] text-[#919496] items-end leading-7">
         <ul className="flex justify-between w-[500px]">
-          <li>Legal</li>
-          <li>Centro de Privacidade</li>
-          <li>Política de privacidade</li>
-          <li>Cookies</li>
-          <li>Sobre anúncios</li>
+          <li className="hover:text-[#1ed760]">Legal</li>
+          <li className="hover:text-[#1ed760]">Centro de Privacidade</li>
+          <li className="hover:text-[#1ed760]">Política de privacidade</li>
+          <li className="hover:text-[#1ed760]">Cookies</li>
+          <li className="hover:text-[#1ed760]">Sobre anúncios</li>
         </ul>
         <ul className="text-right">
           <li>Brasil</li>
