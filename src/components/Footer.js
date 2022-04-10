@@ -58,7 +58,7 @@ const Footer = () => {
           <li className="hover:text-[#1ed760]">Sobre anúncios</li>
         </ul>
         <ul>
-          <li className="flex justify-center items-center hover:text-[#1ed760]">
+          <li className="flex justify-end items-center hover:text-[#1ed760]">
             <Public fontSize="5px" className="text-white mr-2" /> Brasil
           </li>
           <li>&copy; 2022 Spotify AB</li>

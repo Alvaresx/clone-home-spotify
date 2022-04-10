@@ -7,6 +7,9 @@ module.exports = {
       backgroundImage: theme => ({
         "content": "url('img/circulos-bg.png')"
       }),
+      backgroundSize: {
+        "150%": "150%"
+      },
     },
   },
   plugins: [],
