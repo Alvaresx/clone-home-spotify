@@ -1,6 +1,6 @@
 import React from "react";
 import Logo from "../img/logo.png";
-import {Menu} from "@mui/icons-material";
+import { Menu } from "@mui/icons-material";
 
 const Header = () => {
   return (
